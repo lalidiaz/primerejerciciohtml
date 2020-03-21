@@ -17,18 +17,87 @@
     <li>primer item</li>
     <li>segundo item</li>
     </ul>
-    <input>
-    <textarea cols="30 rows=" 20">
+    <form action="miformulario.com/form">
+        <h2>Formulario de contacto de Doge</h2>
+        <br>
+        <label>
+            Nombre del Doge
+            <input type="text" name="nombre" max="10" min="2" placeholder="nombre del doge">
+        </label>
+        <br>
+        <br>
+        <label>
+            Apellido del Doge
+            <input type="text" name="nombre" max="10" min="2" placeholder="apellido">
+        </label>
+        <br>
+        <label for="tongue_colour">
+            <input type="radio" name="tongue_colour" value="red">
+            Rojo
+        </label>
+        <label for="tongue_colour">
+            <input type="radio" name="tongue_colour" value="Green">
+            Verde
+        </label>
+        <br>
+        <br>
+        <h3>Tipo de alimento que come</h3>
+        <label>
+            <input type="checkbox" name="balanceado" value="balanceado">balanceado</label>
+        <br>
+        <label>
+            <input type="checkbox" name="el comun" value="el comun">El comun</label>
+        <br>
+        <label>
+            <input type="checkbox" name="ninguno" value="ninguno">ninguno</label>
+
+        </label>
+        <br>
+        <br>
+        <lavel>
+            Contextura del doge
+            <select name="doge-fatness">
+                <option value="Flaquito">Flaquito</option>
+                <option value="rellenito">Rellenito</option>
+                <option value="maso">Maso</option>
+                <br>
+                <br>
+                <br>
+
+                <label>
+                    Foto del doge
+                    <input type="file" accept=".jpg,.png,.bmp">
+                </label>
+
+
+
+            </select>
+        </lavel>
+
+        <br>
+        <br>
+        <label for="Doge-description-id">Descricion del Doge</label>
+        <br>
+        <textarea for="Doge-description" id="Doge-description-id" rows="4" cols="30"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar informacion de mi doge">
+    </form>
+    <br>
+
     </textarea>
-
-    <div style="background-color: aqua;">
-        <a href=“google.com”>Google</a>
-        <button>holis</button>
-        <br />
+    <form>
 
 
-        <img src="https://i.kym-cdn.com/photos/images/original/000/581/168/9f1.jpg" alt="un doge">
-    </div>
+        <div style="background-color: aqua;">
+            <a href=“google.com”>Google</a>
+            <button>holis</button>
+            <br />
+            <input type="hidden" name="id" value="123">
+
+
+            <img src="https://i.kym-cdn.com/photos/images/original/000/581/168/9f1.jpg" alt="un doge">
+        </div>
 </body>
 
 </html>
