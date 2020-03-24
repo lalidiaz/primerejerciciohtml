@@ -1,0 +1,39 @@
+body {
+    text-align: left;
+    margin: auto;
+    
+}
+h1{
+    
+    font-family: 'Geneva';
+    font-size: 2.6em;
+    
+}
+span {
+ color: grey;
+ font-family: 'times new roman';
+ font-size: small;   
+ margin-bottom: auto;
+ margin-right: 2mm;
+}
+
+article {
+    font-family: 'Segoe UI';
+    font-weight: 200;
+    font-size: medium;
+    line-height: 3.5em;
+    width: 600;
+    margin: auto;
+}
+
+p{
+ line-height: 1.6em;
+ font-family:'Georgia';
+ color: gray;
+ margin-top: 1em;
+
+}
+
+button{
+    background-color:red;
+  
