@@ -36,4 +36,8 @@ p{
 
 button{
     background-color:red;
-  
+}
+img.img-content {
+    width: 100%;
+    display: block;
+    }

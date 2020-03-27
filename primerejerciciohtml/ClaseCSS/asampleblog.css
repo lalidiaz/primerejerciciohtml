@@ -1,0 +1,82 @@
+header {
+    background-color: gainsboro;
+    text-align: center;
+    word-spacing: 1em;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 8px 0px;
+    margin: 0px 5px;
+}
+
+ .links-top{
+    color: gray;
+ padding: 5em;
+ font-size: smaller;
+ 
+}
+
+ .SASS{
+    display: flex;
+    align-items: flex-start;
+}
+
+.text{
+    font-size: 0.7em;
+    margin-bottom: 270px;
+    
+}
+
+.time{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    margin-top: 10em;
+}
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    padding:0;
+}
+
+article {
+    height: 600px;
+    width: 1000x;
+    padding: 20px;
+    text-align: left;
+    color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.article-box1{
+    background-color: mediumslateblue;
+}
+
+.article-box2{
+    background-color: sandybrown;
+}
+
+.article-box3{
+    background-color: teal;
+}
+
+.article-box4{
+    background-color: tomato;
+}
+
+.article-box5{
+    background-color: blueviolet;
+}
+
+.article-box5{
+    background-color: hotpink;
+}
+
+.article-box6{
+    background-color: indianred;
+
+}
+.footer{
+    font-family: sans-serif;
+   font-size: 0.5em;
+  ;
+}
+
